@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>NewsLetter Signup</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico">
+  <link rel="icon" href="data:,">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="text-center">
+
+  <main class="form-signin">
+    <form class="form-signin" action="/" method="POST">
+      <img class="mb-4" src="images/mail-icon4.PNG" alt="" width="120" height="100">
+      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+      <!-- Name -->
+      <div class="form-floating">
+        <input type="text" name="fName" class="form-control top" id="floatingInput" placeholder="First Name">
+        <label for="floatingInput">First Name</label>
+
+      </div>
+
+      <!-- Last Name -->
+      <div class="form-floating">
+        <input type="text" name="lName" class="form-control middle" id="floatingInput" placeholder="Last Name">
+        <label for="floatingInput">Last Name</label>
+      </div>
+
+      <!-- Email -->
+      <div class="form-floating">
+        <input type="email" name="email" class="form-control bottom" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+
+      <!-- Button Submit -->
+      <form action="/" method="post">
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      </form>
+      <p class="mt-5 mb-3 text-muted">Kdo Fighting &copy; <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+    </form>
+  </main>
+</body>
+
+</html>

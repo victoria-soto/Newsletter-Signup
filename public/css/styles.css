@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.btn-primary, .btn-primary:hover {
+  color: #fff;
+  background-color: #a7e6d8;
+  border-color: #a7e6d8;
+}
+
+.btn-check:checked+.btn-primary, .btn-check:active+.btn-primary, .btn-primary:active, .btn-primary.active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #a7e6d8;
+  border-color: #a7e6d8;
+}
+
+.btn-check:checked+.btn-primary:focus, .btn-check:active+.btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(167, 230, 216, 0.5);
+}
+
+.form-control:focus {
+  border-color: #a7e6d8;
+  box-shadow: 0 0 0 0.2rem rgba(167, 230, 216, 0.5);
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.bg-light {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #a7e6d8;
+  border-radius: 0.3rem;
+}
